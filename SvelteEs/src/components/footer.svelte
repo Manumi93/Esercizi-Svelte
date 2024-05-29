@@ -1,9 +1,9 @@
 <script>
-	export let home = "home";
+	export let footer = "footer";
 </script>
 
 <main>
-	<h1>Hello {home}!</h1>
+	<h1>Hello {footer}!</h1>
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
 </main>
 

@@ -1,12 +1,21 @@
 <script>
-	export let name;
-	import Home from "./Home.svelte";
+	
+	import Header from './components/header.svelte';
+	import Main from './components/main.svelte';
+	import Footer from './components/footer.svelte';
+
+	// export let name;
+	
+	// import Home from "./components/Home.svelte";
+	
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
-	<Home></Home>
+	<!-- <h1>Hello {name}!</h1> -->
+	<Header></Header>
+	<Main></Main>
+	<!-- <Home></Home> -->
+	<Footer></Footer>
 </main>
 
 <style>
